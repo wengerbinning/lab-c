@@ -1,0 +1,4 @@
+#!/bin/bash
+
+autoreconf --install
+# autoreconf --force --verbose --install

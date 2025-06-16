@@ -1,0 +1,14 @@
+
+#!/bin/bash
+
+# makeflags="V=0"
+makeflags="${makeflags:+makeflags }--no-print-directory"
+#
+configureflags="--prefix=/usr"
+configureflags="${configureflags:+$configureflags }--disable-silent-rules"
+
+test -f configure || ./bootstrap
+test -f Makefile  && make distclean
+test -f Makefile  || ./configure ${configureflags:+$configureflags}
+make ${makeflags:+$makeflags} -j$(nproc) || { echo "Build Error!"; exit 1; }
+make ${makeflags:+$makeflags} install DESTDIR=${PWD}/dest
