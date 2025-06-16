@@ -29,3 +29,9 @@ config.h.in
 # configure
 config.h
 stamp-h1
+# build-*
+*.o
+.deps/
+depcomp
+dest/
+helloworld
