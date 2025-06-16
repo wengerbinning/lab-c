@@ -31,7 +31,10 @@ config.h
 stamp-h1
 # build-*
 *.o
+*.lo
+*.la
 .deps/
+.libs/
 depcomp
 dest/
 helloworld
