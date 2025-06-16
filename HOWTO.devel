@@ -3,3 +3,4 @@
 * 基于configure.scan创建configure.ac文件
 * autoconf支持automake特性
 * autoconf支持libtool功能
+* autoconf支持m4与config.h特性

@@ -23,3 +23,9 @@ ltmain.sh
 # configure
 config.lt
 libtool
+# autoreconf --install with m4&config.h
+m4/
+config.h.in
+# configure
+config.h
+stamp-h1

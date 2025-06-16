@@ -15,6 +15,8 @@ AC_PROG_CC
 # Checks for typedefs, structures, and compiler characteristics.
 # Checks for library functions.
 
+AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
 LT_OUTPUT
