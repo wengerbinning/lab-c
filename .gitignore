@@ -16,3 +16,10 @@ INSTALL
 Makefile.in
 # configure
 Makefile
+# autoreconf --install with libtool
+config.guess
+config.sub
+ltmain.sh
+# configure
+config.lt
+libtool
