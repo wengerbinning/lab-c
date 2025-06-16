@@ -6,3 +6,13 @@ configure
 # configure
 config.log
 config.status
+# autoreconf --install with automake
+aclocal.m4
+compile
+install-sh
+missing
+COPYING
+INSTALL
+Makefile.in
+# configure
+Makefile

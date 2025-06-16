@@ -1,3 +1,4 @@
 * 创建仓库并添加开发文档HOWTO与ignore文件
 * 执行autosan来收集configure.scan文件
 * 基于configure.scan创建configure.ac文件
+* autoconf支持automake特性

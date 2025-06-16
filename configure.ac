@@ -3,6 +3,7 @@
 
 AC_PREREQ([2.72])
 AC_INIT([C Programming Labs], [0.0], [wengerbinning@163.com], [lab-c])
+AM_INIT_AUTOMAKE
 
 # Checks for programs.
 AC_PROG_CC
