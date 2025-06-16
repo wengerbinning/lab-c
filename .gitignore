@@ -1,2 +1,8 @@
 # autoscan
 autoscan.log
+# autoreconf --install
+autom4te.cache/
+configure
+# configure
+config.log
+config.status
