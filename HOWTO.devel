@@ -1,1 +1,2 @@
 * 创建仓库并添加开发文档HOWTO与ignore文件
+* 执行autosan来收集configure.scan文件
